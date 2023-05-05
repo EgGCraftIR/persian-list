@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>farsi-list</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./img/logo.png">
+
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="./css/coloring.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/txtformatting.css">
+  <link rel="stylesheet" type="text/css" href="./css/shadow.css">
+  <link rel="stylesheet" type="text/css" href="./css/loading.css">
+  <link rel="stylesheet" type="text/css" href="./css/cursor.css">
+  <!-- css end -->
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="on">
+  <div class="loading" id="loading-box">
+    <div class="loading-item"><div class="loading-progress"></div></div>
+  </div>
+  <main class="main">
+    <!-- navbar -->
+    <div class="navbar">
+      <div class="container">
+        <div class="navbar-nav">
+          <div class="navbar-brand">
+            <!-- You can change it with Image if you want. -->
+            <span class="navbar-brand-txt"><a class="txt-bold type-1" href="/"><fari-list></fari-list></a></span>
+          </div>
+
+          <span class="navbar-toggler" id="toggler"><i onclick="toggleNavbar(this)" class="fas fa-bars"></i></span>
+
+          <div class="navs" id="navs">
+            <!-- You can change the href value and the text value -->
+            <div class="navs-item notbtn"><a href="About.html" class="txt-uppercase">درباره ما</a></div>
+            <div class="navs-item notbtn"><a href="https://discord.gg/BJ8SNZZpPX" class="txt-uppercase">سرور دیسکورد ما</a></div>
+            <div class="navs-item"><a href="#"><button class="btn txt-uppercase shadow-sm">ورود</button></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar end -->
+    <!-- jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="jumbotron-items">
+          <div class="jumbotron-item">
+            <span class="jumbotron-t">چرا از PersianCat استفاده کنیم?</span>
+            <p class="jumbotron-d">پرشین کت یک بات دیسکورد معتبر است که با ان میتوانید از ورشکستگی و یکنواختی سرور دیسکورد خود جلوگیری کنید!</p>
+            <div class="jumbotron-buttons">
+              <button class="btn blue" onclick="location.href='https://discord.com/api/oauth2/authorize?client_id=1060474023437422622&permissions=8&scope=bot'">دعوت</button>
+              </div>
+              <span class="jumbotron-t">چرا از Theworld استفاده کنیم?</span>
+            <p class="jumbotron-d">بات سرگرمی دیسکورد با قابلیت های متنوع , مدیریت اسان سرور , اسکین های ماینکرفت و ...</p>
+            <div class="jumbotron-buttons">
+              <button class="btn blue" onclick="location.href='https://discord.gg/eKQZcvpa6X'">دعوت</button>
+              <span class="jumbotron-t"></span>
+            <p class="jumbotron-d"></p>
+            </div>
+          </div>
+          <div class="jumbotron-item">
+            <img src="./img/img.svg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jumbotron end -->
+    <span class="scroll-down"><i class="fas fa-arrow-down"></i></span>
+  </main>
+
+  <!-- features -->
+  <div class="features-box">
+    <h1 class="features-t" id="features">ما بهترین ها را ارائه می دهیم.</h1>
+    <div class="container">
+      <div class="features">
+        <div class="feature">
+          <img class="feature-img" src="./img/feature1.png"></img>
+          <div class="feature-info">
+            <h2 class="feature-info-t">فارسی لیست چیست؟</h2>
+            <p class="feature-info-d">فارسی لیست اولین و برترین باتلیست دیسکورد به زبان فارسی است که از بات های خارجی و ایرانی به صورت رایگان حمایت میکند.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <img class="feature-img" src="./img/feature2.svg"></img>
+          <div class="feature-info">
+            <h2 class="feature-info-t">چگونه بات خودم رو به سایت شما اضافه کنم؟</h2>
+            <p class="feature-info-d">کافیه فقط داخل سرور دیسکورد  ما تیکت ارسال کنید.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <img class="feature-img" src="./img/feature3.svg"></img>
+          <div class="feature-info">
+            <h2 class="feature-info-t">ایا بات های این وبسایت ایمن هستند؟</h2>
+            <p class="feature-info-d">بله بات های داخل این سایت کاملا بررسی  شده اند  و هیچ مشکلی ندارند اما در صورت هرگونه تخلف میتوانید به ما اطلاع دهید.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- features end -->
+
+  <!-- services -->
+  <div class="services-box">
+    <h1 class="services-t" id="services">سرویس های فعلی ما...</h1>
+    <div class="container">
+      <div class="services">
+        <div class="service">
+          <span><i class="fas fa-server"></i>  1 سرور</span>
+        </div>
+        <div class="service">
+          <span><i class="fas fa-users"></i> 87 کاربر</span>
+        </div>
+        <div class="service">
+          <span><i class="fas fa-hashtag"></i> 1 ربات</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- services end -->
+
+  <!-- footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="footer-items">
+        <div class="footer-item">
+          <span>پارتنر ها</span>
+          <ul class="footer-ul">
+            <li><a href="#">برترین پارتنر ها</a></li>
+            <li><a href="#">PersianCat</a></li>
+            <li><a href="#">موجود نیست</a></li>
+            <li><a href="#">موجود نیست</a></li>
+            <li><a href="#">موجود نیست</a></li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <span>لینک ها</span>
+          <ul class="footer-ul">
+            <li><a href="#">دیسکورد</a></li>
+            <li><a href="#">بزودی</a></li>
+            <li><a href="#">بزودی</a></li>
+            <li><a href="#">بزودی</a></li>
+            <li><a href="#">بزودی</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer end -->
+  <script type="text/javascript" src="./js/script.js"></script>
+  <script type="text/javascript" src="./js/cursor.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "farsi-list",
+  "author": "just_amirHeHe#0485",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}
